@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-------------------------------------------------------------------------------------------*/
+/* login */
+#login_box {
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	width:24em;
+	min-height:14em;
+	margin-top: -8em; /*set to a negative number 1/2 of your height*/
+	margin-left: -13em; /*set to a negative number 1/2 of your width*/
+	padding: 0.5em 0.5em 1em 0.5em;
+	border: 1px solid #7F5F00;
+	-moz-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background-color: #fbd5d5;
+}
+
+h1{
+	background-color:#892e2f;
+	-moz-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	font-size:120%;
+	font-weight:bolder;
+	color:#fff;	
+	padding-top:1em;
+	padding-bottom:1em;
+	text-align:center;
+}
+
+#login_form{
+	padding:15px;
+}
+
+#login_form p label{
+	display:block;
+	float:left;
+	width:80px;
+	padding-top:3px;
+}
+
+#login_form p{
+	margin-bottom:10px;
+}
+
+#login_form a{
+	float:right;
+	font-size:11px;
+	text-decoration:none;
+	color:#ad4546;
+}
+#login_form a:hover{
+	text-decoration:underline;
+}
+
+#submit{
+	padding:0px 0px 4px 0px;
+	border:#666 solid 1px;
+	margin-left:80px;
+	min-height:25px;
+	min-width:70px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#submit:hover{
+	background-color:#fbe104;
+
+}
+
+#login_box .field_error, #login_box #message{
+	font-size:12px;
+	color:#F00;
+}
+
+#login_box #form_error_message{
+	margin-bottom:20px;
+}
+
+#login_box .field_error{
+	clear:both;
+	margin-left:80px;
+}
+
+
+.form_field{
+	height:20px;
+	border:#666 solid 1px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 4px 4px 0px 4px;
+}
+
+.form_field:focus{
+	background-color:#fdf3f3;
+	border:#892e2f solid 1px;
+}
