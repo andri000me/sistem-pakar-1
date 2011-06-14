@@ -9,9 +9,9 @@
 			  <li><a href="<?php echo site_url()?>">Home</a></li>
 			  <li><a href="#">Konsultasi</a>
 				<ul>
-				<li><a href="<?php echo site_url()?>kon_jenis">Jenis</a></li>
-				<li><a href="<?php echo site_url()?>kon_penyakit">Penyakit</a></li>
-				<li><a href="<?php echo site_url()?>kon_silang">Silang</a></li>
+				<li><a href="<?php echo site_url()?>kon_jenis/kon_jenis_first">Jenis</a></li>
+				<li><a href="<?php echo site_url()?>kon_penyakit/kon_penyakit_first">Penyakit</a></li>
+				<li><a href="<?php echo site_url()?>kon_silang/kon_process">Silang</a></li>
 				</ul>
 			  </li> 
 			  <li><a href="#">Budidaya</a>

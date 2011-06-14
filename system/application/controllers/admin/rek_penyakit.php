@@ -39,7 +39,7 @@ class Rek_penyakit extends Controller {
 		$this->form_validation->set_rules('kode_penyakit', 'Kode Penyakit','required');
 		$this->form_validation->set_rules('kode_gejala', 'Kode Gejala','required');
 		$this->form_validation->set_rules('kode_penyebab', 'Kode Penyebab','required');
-		$this->form_validation->set_rules('kode_obat', 'Kode Obat','required');
+		//$this->form_validation->set_rules('kode_obat', 'Kode Obat','required');
 		
 		if($this->form_validation->run() == FALSE)
 		{

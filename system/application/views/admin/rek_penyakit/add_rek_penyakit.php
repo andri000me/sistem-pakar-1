@@ -153,7 +153,7 @@
 
 <?php echo form_error('kode_gejala', '<div id="kotak1">', '</div>'); ?>
 <?php echo form_error('kode_penyebab', '<div id="kotak2">', '</div>'); ?>
-<!-- <?php echo form_error('kode_obat', '<div id="kotak3">', '</div>'); ?> -->
+
 
 <div id="demo" class="demolayout">
 

@@ -36,7 +36,7 @@ class Silang extends Controller {
 		
 		if($this->form_validation->run() == FALSE)
 		{
-			$this->load->library('pagination');
+			//$this->load->library('pagination');
 			$offset = $this->uri->segment(4);
 			$config['base_url'] = site_url().'/admin/silang/add_silang';
 			$config['total_rows'] = count($this->Jenis_model->getJenis('anakan',FALSE,FALSE,FALSE));
@@ -45,9 +45,9 @@ class Silang extends Controller {
 			
 			$data['urut'] = $this->uri->segment(4);
 			$data['title'] = 'Tambah Perkawinan Silang';
-			$data['query'] = $this->Jenis_model->getJenis('anakan',FALSE,$config['per_page'],$offset);
+			$data['query'] = $this->Jenis_model->getJenis('anakan',FALSE,FALSE,FALSE);
 			$data['main_view'] = 'admin/silang/add_silang';
-			$this->pagination->initialize($config);
+			//$this->pagination->initialize($config);
 			$this->load->view('admin/index',$data);
 		}
 		else
