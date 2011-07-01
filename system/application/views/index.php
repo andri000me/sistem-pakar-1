@@ -37,6 +37,7 @@
 			<div class="list">
 				  <li><a href="<?php echo site_url()?>profil">Profil</a></li>
 				  <li><a href="<?php echo site_url()?>galery">Galery </a></li>
+				  <li><a href="<?php echo site_url()?>video">Video </a></li>
 				  <li><a href="<?php echo site_url()?>tips">Tips </a></li>
 				  <li><a href="<?php echo site_url()?>bukutamu">Buku Tamu </a></li>
 				  <li><a href="<?php echo site_url()?>admin/dashboard">Login Admin </a></li>
